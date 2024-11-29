@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+  </head>
+  <body>
+    <h1>User List</h1>
+    <a href="/users/create">新規作成</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody id="usersList"></tbody>
+    </table>
+    <div id="message"></div>
+    <div id="errorMessage" style="color: red;"></div>
+
+    <script src="/users/index.js"></script>
+  </body>
+</html>
